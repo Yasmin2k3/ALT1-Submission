@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--<link rel="icon" href="/docs/4.0/assets/img/favicons/favicon.ico">-->
+
+    <title>Character Creator</title>
+
+    <link
+      rel="canonical"
+      href="https://getbootstrap.com/docs/4.0/examples/cover/"
+    />
+
+    <!-- Bootstrap core CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet" />
+    <link href="yasminb.css" rel="stylesheet" />
+
+    <!-- Custom fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- beginning of navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-charSheetNav">
+      <div class="navbar-brand">Character Sheet</div>
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="index.html">Home</a>
+        <a class="nav-item nav-link active" hhref="report.html"
+          >ALT Report<span class="sr-only">(current)</span></a
+        >
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 mx-auto">
+          <strong>Team Names: Yasmin Woodlock</strong>
+          <article id="projectTitle">
+            <h3>Project Title:</h3>
+            <h1>Character Creator</h1>
+            <hr class="line1" />
+          </article>
+
+          <!-- start of planning -->
+          <h2>
+            Planning:
+          </h2>
+          <div class="row">
+            <div class="col-6">
+              <article>
+                <h3>Design Statement</h3>
+                <p>
+                  You are to design, research, and build a functioning website.
+                  This website can be on any topic but must capture data from
+                  the user, store it in a database and retrieve the data to be
+                  displayed in an appropriate format.
+                </p>
+              </article>
+              <article>
+                <h2>Evaluation of Designs</h2>
+                <p>
+                  My initial idea was to create a webpage where you could create characters and input game statistics as well as side information about them, and have the website display this using cards. 
+                  After brainstorming and doing some project-planning, I decided to de-scope given the time and resources constraints. This allowed me to get over the learning curve that comes with
+                  learning a new language and focus on the quality of what I could put in.
+                </p>
+                <p>
+                  <img src="https://cdn.glitch.me/e60cd810-ea10-4426-9986-137a6dcf8000/design2.PNG?v=1639588740741" width="300px" />
+                  <img src="https://cdn.glitch.me/e60cd810-ea10-4426-9986-137a6dcf8000/design3.PNG?v=1639588761653" width="300px" />
+                </p>
+              </article>
+            </div>
+            <div class="col-6">
+              <article>
+                <h3>Research and Brainstorm</h3>
+                <p>
+                  I'm quite interested in Dungeons and Dragons, and I thought it
+                  would be fun to design and code a webpage in which you
+                  could create, show, edit and delete custom characters.
+                </p>
+              </article>
+              <article>
+                <h2>Sketch of Final Design</h2>
+                <p>
+                <img src="https://cdn.glitch.me/e60cd810-ea10-4426-9986-137a6dcf8000/design1.PNG?v=1639588372046" width="200px" />
+                <img src="https://cdn.glitch.me/e60cd810-ea10-4426-9986-137a6dcf8000/finaldesign.PNG?v=1639590100723" width="300px" />
+                </p>
+              </article>
+            </div>
+          </div>
+          <hr class="line1" />
+          <!-- end of planning -->
+          <!-- start of development -->
+          <h2>
+            Development:
+          </h2>
+          <div class="row">
+            <div class="col-6">
+              <article>
+                <h3>Screenshots and descriptions of your working website</h3>
+                <p>
+                  The home page allows you to view all of the characters that
+                  you have made, it has a neat navbar at the top that lets you
+                  create a new character and also brings you to the ALT report going into further detail of this project.
+                  Thanks to Bootstrap (an HTML and CSS framework that
+                  simplifies the creation of responsive websites). When you click on the picture of the character, it shows further details that the user has inputted.
+                </p>
+                <p>
+                  The &quot;Create New&quot; button on the navbar allows you to make a new character and stores this information into the Firebase database.
+                </p>
+                <p>
+                  The &quot;Edit&quot; button on the card allows you to edit the information and updates the corresponding collection in Firebase.
+                </p>
+                <p>
+                  The &quot;Delete&quot; button on the card allows you to delete the character and also deletes the collection in Firebase.
+                </p>
+                <p>
+                <img src="https://cdn.glitch.me/e60cd810-ea10-4426-9986-137a6dcf8000/homepage.PNG?v=1639586755074" width="500px"/>
+                <img src="https://cdn.glitch.me/e60cd810-ea10-4426-9986-137a6dcf8000/showpage.PNG?v=1639588141842" width="500px">
+                </p>
+                  
+              </article>
+            </div>
+            <div class="col-6">
+              <article>
+                <h3>Screenshot your database structure</h3>
+                <p><img src="https://cdn.glitch.me/e60cd810-ea10-4426-9986-137a6dcf8000/database.PNG?v=1639588980483" width="500px"></p>
+              </article>
+              <article>
+                <h3>Sample inputs and outputs on your website</h3>
+                <p>Input the character's name, class etc. and the output is the new card on the Home screen in which you can click on and see what the userhas inputted</p>
+              </article>
+            </div>
+          </div>
+          <hr class="line1" />
+          <!-- end of development -->
+
+          <!-- start of reflection -->
+          <h2>
+            Reflection:
+          </h2>
+          <div class="row">
+            <div class="col-6">
+              <article>
+                <h3>What parts of the project worked out as expected?</h3>
+                <p>
+                  A lot of the CSS and HTML worked out as expected because I
+                  mainly looked up how to do things on Bootstrap, and the code that
+                  was given worked. 
+                  The usefulness of Bootstrap as a framework was that a lot of the design was precoded and I only needed to invoke the relevant code. 
+                  It saved me from having to specify many things like margins, padding etc.
+                  The CSS language as a whole was easy to grasp and it did not take me long before I was able to easily style elements on the webpage.
+                </p>
+                <p>
+                  Glitch was easy to use and is intuitive when it comes to making files and editing them.
+                </p>
+                <p>
+                  Thankfully, the code to connect the webpage to Firebase already existed so I just needed to copy that.
+                </p>
+              </article>
+              <article>
+                <h3>What were the biggest challenges of the project?</h3>
+                <p>
+                  The biggest challenge was to connect my project to Firebase.
+                  The functions of getting the data, creating data etc. took a
+                  while to understand. At the start everything looked Greek to me. It took a few days to get my head around it.
+                </p>
+                <p>
+                  Similarly, Javascript, HTML and CSS were all languages that I had no prior experience with. This was a huge jump from Python and I had to use a different method in my approach to coding,
+                  as I didn't have the time to comprehensively delve into them. My solution was to use Google as my friend, and look up online certain functions that I was familiar with through Python.
+                  For example, I had to look up how to do a <code>for loop</code> in Javascript.
+                </p>
+              </article>
+            </div>
+            <div class="col-6">
+              <article>
+                <h3>What parts of the project did not work out as expected?</h3>
+                <p>
+                  I tried to give a different hover colour to the navbar but for
+                  some reason I couldn't get it to work. I think there is some element in the Bootstrap code that is overriding my customisation but I don't know what. I would be able to solve this
+                  but it would take me time.
+                </p>
+                <p>
+                  I would prefer the alignment of the pictures in the &quot;Show&quot; screen to be centered, but again I believe that Bootstrap has code that is preventing me from doing this.
+                  Once again, I would need to research what customisation I need to make to achieve this.
+                </p>
+              </article>
+              <article>
+                <h3>What unexpected questions arose during your project?</h3>
+                <p>
+                  Glitch has a different way of importing images. It saves it on one folder and you need to upload it there and copy a specific key into the html for the picture to show.
+                  I previously thought that a large amount of this string actually stayed the same, so what I used to show the pictures on each card was just changed a little bit of the string, which was easier to do than bringing up all different keys, and this worked!
+                  However, when I recently entered a few more pictures, I found they werent working. Taking a closer look I found out that the long string changes based on the day you import it into the folder. I had to reload all the pictures on the same day for my code to work and I found this really annoying
+                  to work with.
+                </p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- end of reflection -->
+
+    <footer class="footer">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-6 mx-auto text-center">
+            <address>
+              Presentation Secondary School,<br />
+              Computer Science Department,<br />
+              Leaving Certificate 2022
+            </address>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>'
+        );
+    </script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="../../dist/js/bootstrap.min.js"></script>
+  </body>
+</html>

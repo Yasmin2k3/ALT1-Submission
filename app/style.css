@@ -1,0 +1,100 @@
+/* red -#911F27 darker red - #630A10 light yellow - #FCF0C8 darker yellow - #FACE7F*/
+
+html,
+body {
+  height: 100%;
+  background-color: #630a10;
+  font-family: "PT Serif", serif;
+  color: #face7f;
+}
+
+.col-md-3 {
+  margin: 4px;
+  padding: 8px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 15vw;
+  object-fit: cover;
+}
+
+.card-img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.butn-pic {
+  border-color: transparent;
+}
+
+.card-body {
+  background-color: #face7f;
+  color: #630a10;
+}
+
+.namesTable {
+  border-bottom: 0px !important;
+}
+.namesTable th,
+.namesTable td {
+  border: 0px !important;
+}
+.namesTable .fixed-table-container {
+  border: 0px !important;
+}
+
+.line1 {
+  border-top: 1px solid #face7f;
+}
+
+.navbar-dark {
+  background-color: #961f25;
+}
+/* Modify brand and text color */
+.navbar-brand {
+  color: #face7f !important;
+}
+
+.navbar-nav .nav-item {
+  color: #fcf0c8 !important;
+}
+
+.btn-outline-warning {
+  color: #fcf0c8;
+  background-color: transparent;
+  background-image: none;
+  border-color: #fcf0c8;
+  margin: 2px;
+}
+
+.btn-outline-warning:hover {
+  color: #911f27;
+  background-color: #fcf0c8;
+  border-color: #fcf0c8;
+}
+
+.col-md-3 .btn-outline-warning {
+  color: #911f27;
+  background-color: transparent;
+  background-image: none;
+  border-color: #911f27;
+  margin: 2px;
+}
+
+.col-md-3 .btn-outline-warning:hover {
+  color: #face7f;
+  background-color: #911f27;
+  border-color: #911f27;
+}
+
+.footer {
+  background-color: #911f27;
+  font-size: small;
+}
+
+h2,
+h3 {
+  color: #fcf0c8;
+}
